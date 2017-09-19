@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: bold 16px Arial, sans-serif;
+}
+
+#calculator {
+  width: 325px;
+  height: auto;
+  margin: 100px auto;
+  padding: 10px 20px 9px;
+  background: linear-gradient(#b3ffb3, #80ff80);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.top span.clear {
+  float: left;
+}
+
+.top .screen {
+  height: 36px;
+  width: 212px;
+  float: right;
+  padding: 0 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 40px;
+  text-align: right;
+  letter-spacing: 1px;
+  color: white;
+  user-select: none;
+}
+
+.keys, .top {
+  overflow: hidden;
+}
+
+.keys span, .top span.clear {
+  float: left;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  width: 66px;
+  height: 36px;
+  background: white;
+  border-radius: 5px;
+  margin: 0 7px 11px 0;
+  color: #888;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+}
+
+.keys span.operator {
+  background: #FFF0F5;
+  margin-right: 0;
+}
+
+.keys span.eval {
+  background: #f1ff92;
+  color: #888e5f;
+}
+
+.top span.clear {
+  background: #ff9fa8;
+  color: white;
+}
+
+.keys span:hover {
+  background: #cce0ff;
+  color: white;
+}
+
+.keys span.eval:hover {
+  background: #abb850;
+  color: #ffffff;
+}
+
+.top span.clear:hover {
+  background: #f68991;
+  color: white;
+}
+
+.keys span:active {
+  top: 2px;
+}
+
+.keys span.eval:active {
+  top: 2px;
+}
+
+.top span.clear:active {
+  top: 2px;
+}

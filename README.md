@@ -1,6 +1,13 @@
 # javascript
-javascript exercises
 
 
-1.simple calculator
-<img src="https://github.com/bestoak/javascript/calc/calc.jpg" width=172 height=172>
+##### a simple calculator
+<img src="https://raw.githubusercontent.com/bestoak/javascript/master/calc/calc.jpg" width=172 height=172>
+
+##### contents
+```
+calc/
+├── calc.css
+├── calc.html
+└── calc.js
+```
